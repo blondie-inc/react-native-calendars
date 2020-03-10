@@ -455,6 +455,7 @@ export default class AgendaView extends Component {
         </Animated.View>
         <Animated.ScrollView
           ref={c => this.scrollPad = c}
+          nestedScrollEnabled={true}
           overScrollMode='never'
           showsHorizontalScrollIndicator={false}
           showsVerticalScrollIndicator={false}
